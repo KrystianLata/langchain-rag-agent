@@ -60,6 +60,6 @@ The uploaded documents contains:
 1. Document Processing - Load and chunk PDF documents using LangChain
 2. Vector Search - Create embeddings and semantic search with ChromaDB
 3. RAG Implementation - Build Retrieval-Augmented Generation pipeline
-4. Agent Development - Create intelligent agent that uses RAG subagent only when needed as tool 
-5. Multi-language Support - Handle multiple languages
-6. Source Citation - Provide accurate source references from documents
+4. 2 Versions of LLM with RAG implementation:
+    - Chatbot "always-on RAG" 
+    - Agent with RAG tool (agent decides when RAG is needed)
