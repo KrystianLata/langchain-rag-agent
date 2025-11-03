@@ -1,0 +1,65 @@
+# Accident Risk Prediction Project
+
+Machine learning project for predicting road accident risk based on simulated road accident data from Kaggle.
+
+## Project Structure
+```
+project/
+├── documents/
+│   ├── slownik_pojec.pdf
+│   ├── ustawa.pdf
+├── notebooks/
+│   └── agent_rag_as_tool.ipynb
+├── requirements.txt
+├── README.md
+├── .env
+└── .gitignore
+
+```
+
+## Setup & Installation
+
+### 1. Clone/Download the project
+```bash
+git clone https://github.com/KrystianLata/langchain-rag-agent.git
+cd langchain-rag-agent
+```
+
+### 2. Create virtual environment
+```bash
+# Create venv
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Provide OPENAI_API_KEY 
+Open file .env and replace OPENAI_API_KEY value with your actual key
+
+### 5. Launch Jupyter Notebook
+```bash
+jupyter notebook
+```
+Then open `notebooks/agent_rag_as_tool.ipynb` and select venv as kernel
+
+## 6. Data / documentation
+The uploaded documents contains:
+- **slownik_pojec.pdf** - generated dictionary of terms related to the morgage context
+- **ustawa.pdf** - law document about mortgage
+
+## 7. Features of created pipeline:
+1. Document Processing - Load and chunk PDF documents using LangChain
+2. Vector Search - Create embeddings and semantic search with ChromaDB
+3. RAG Implementation - Build Retrieval-Augmented Generation pipeline
+4. Agent Development - Create intelligent agent that uses RAG subagent only when needed as tool 
+5. Multi-language Support - Handle multiple languages
+6. Source Citation - Provide accurate source references from documents

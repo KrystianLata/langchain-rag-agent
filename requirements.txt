@@ -1,0 +1,6 @@
+langchain-openai==1.0.1
+langchain-community==0.4.1
+langchain-chroma==1.0.0
+langchain-text-splitters==1.0.0
+python-dotenv==1.2.1
+pypdf==6.1.3
