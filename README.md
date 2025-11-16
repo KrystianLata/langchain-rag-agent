@@ -1,6 +1,8 @@
-# Accident Risk Prediction Project
+# Basic LangChain Agent with RAG
 
-Machine learning project for predicting road accident risk based on simulated road accident data from Kaggle.
+Jupyter Notebook for creating basic agent and presenting how it can work. 
+- Agent is able to retrieve text from mortgage technical docummentation.
+- RAG is provided as LangChain tool to make use it only when needed and run better RAG querries
 
 ## Project Structure
 ```
